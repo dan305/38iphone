@@ -1,5 +1,0 @@
-   {
-     "functions": {
-       "src/app/api/webhooks/**/*.ts": { "maxDuration": 60 }
-     }
-   }
