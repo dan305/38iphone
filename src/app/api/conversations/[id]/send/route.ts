@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { supabaseAdmin } from '@/lib/supabaseAdmin';
 import { sendChannelMessage } from '@/lib/channels/meta';
 
-export const runtime = 'nodejs';
+
 
 /**
  * Envía un mensaje al cliente (lo llama el ERP con un clic).

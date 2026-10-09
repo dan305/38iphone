@@ -3,7 +3,7 @@ import { verifyMetaSignature } from '@/lib/channels/meta';
 import { processIncoming } from '@/lib/ai/pipeline';
 import type { IncomingMessage } from '@/lib/ai/types';
 
-export const runtime = 'nodejs';
+
 export const maxDuration = 60;
 
 /** Meta verifica la URL con un GET (hub.challenge). */
