@@ -4,7 +4,6 @@ import { processIncoming } from '@/lib/ai/pipeline';
 import type { IncomingMessage } from '@/lib/ai/types';
 
 
-export const maxDuration = 60;
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
